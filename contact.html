@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact us</title>
+<meta charset="UTF-8" width="device-width"  initial-scale="1.0"/>
+<link rel="stylesheet" href="style 1.css">
+<style>
+
+    body {
+      font-family: segoe print;
+      font-size: 16px;
+      line-height: 1.5;
+      background-color: #f5f5f5;
+      color: #ff0000;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 1rem;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 1rem;
+    }
+
+    h1 {
+      margin: 2rem 0;
+      text-align: center;
+    }
+
+    .card {
+      background-color: #fff;
+      border-radius: 0.5rem;
+      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+      margin: 2rem 0;
+      padding: 2rem;
+    }
+
+    .card h2 {
+      margin-bottom: 1rem;
+    }
+
+    .card p {
+      margin-bottom: 1rem;
+    }
+
+    .card ul {
+      list-style: none;
+      margin: 1rem 0;
+      padding: 0;
+    }
+
+    .card li {
+      display: flex;
+      align-items: center;
+      margin-bottom: 0.5rem;
+    }
+
+    .card li span {
+      margin-right: 0.5rem;
+      font-weight: bold;
+    }
+
+    .btn {
+      display: inline-block;
+      background-color: #333;
+      color: #fff;
+      padding: 0.5rem 1rem;
+      border: none;
+      border-radius: 0.5rem;
+      cursor: pointer;
+    }
+
+    .btn:hover {
+      background-color: #ff00ff;
+    }
+  </style>
+</head>
+<body>
+<nav>
+    <ul>
+      <li><a href="index.html" target="_blank">Home</a></li>
+      <li><a href="products.html" target="_blank">Products</a></li>
+      <li><a href="about.html" target="_blank">About Us</a></li>
+      <li><a href="contact.html" target="_blank">Contact us</a></li>
+    </ul>
+  </nav>
+  <br>
+<label>Firstname</label><br>
+<input type="firstname" name="firstname" id="firstname"<input><br>
+<label>Lastname</label><br>
+<input type="lastname" name="lastname" id="lastname"<input><br>
+<label>Age</label><br>
+<input for="age" name="age"<input><br>
+Would you like to recieve our news<br>
+    <input type="radio" name="radio"><label>Yes</label><br>
+    <input type="radio" name="radio"><label>No</label><br>
+<select>which is the best type of delivery you prefer
+<option>home to home delivery</option><br>
+<option>visiting our shop</option><br><br><br>
+</select>
+<p>what do you prefer</p>
+<label> bread</label>
+<input type="checkbox" id="bread" name="bread" value="bread"><br>
+<label> cakes</label>
+<input type="checkbox" id="cakes" name="cakes" value="cakes"><br>
+<label for="email">Enter your email:</label>
+<input type="email" id="email" name="email"><br>
+
+
+<textarea cols="40" rows="20">give us your feedback</textarea><br>
+<input type="submit" >
+<input type="reset" >
+<br><br>
+<p>OTHER SERVICES</p>
+  <header>
+    <div class="container">
+      <h1>OUR BAKERY SALES</h1>
+    </div>
+  </header>
+  
+  <div class="container">
+    <h1>Delivery Services</h1>
+
+    <div class="card">
+      <h2>Same-day Delivery</h2>
+      <p>Need something delivered ASAP? Our same-day delivery service will get your package to its destination in no time.</p>
+      <ul>
+        <li><span>Price:</span> sh150/= per package</li>
+        <li><span>Delivery Area:</span> Within 20 km of our location</li>
+        <li><span>Delivery Time:</span> Same day (within 4 hours)</li>
+      </ul>
+      <button class="btn">Order Now</button>
+    </div>
+
+    <div class="card">
+      <h2>Next-day Delivery</h2>
+      <p>Need something delivered tomorrow? Our next-day delivery service is perfect for when you have a little more time.</p>
+      <ul>
+        <li><span>Price:</span> sh300/= per package</li>
+        <li><span>Delivery Area:</span> Within 50 km of our location</li>
+        <li><span>Delivery Time:</span> Next day (within 24 hours)</li>
+  </ul>
+      <button class="btn">Order Now</button>
+    </div>
+
+</body>
+</html>

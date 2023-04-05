@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home | Our Bakery Sales</title>
+    <meta charset="UTF-8" width="device-width"  initial-scale="1.0"/>
+<style>
+body{
+  background-attachment: fixed;
+  background-size: cover;
+}
+ul li{
+  list-style: none;
+  margin: 0 20px;
+  justify-content: space-between;
+  display: inline-block;
+  position: relative;
+}
+ul li a{
+  text-decoration: none;
+  font-size: 20px;
+  color: #fff;
+}
+ul li::after{
+  content: '';
+  height: 3px;
+  background: #ff0000;
+  position: absolute;
+  width: 0;
+  left: 0;
+  bottom: -10px;
+  transition: 0.5s;
+}
+ul li:hover::after{
+  width: 100%;
+}
+nav ul li a {
+  padding: 20px; 
+  margin: 20px;
+}
+</style>
+</head> 
+ <body background="biscuit.jpg">
+ 
+    <header>
+      <h1>OUR BAKERY SALES</h1>                   
+      <nav>
+        <ul>
+          <li><a href="index.html" target="_blank">Home</a></li>
+          <li><a href="products.html" target="_blank">Products</a></li>
+          <li><a href="about.html" target="_blank">About Us</a></li>
+          <li><a href="contact.html" target="_blank">Contact us</a></li>
+        </ul>
+      </nav>
+    </header>
+ </body>
+</html>  
